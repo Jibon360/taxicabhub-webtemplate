@@ -1,0 +1,123 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 480px){
+    .download-left {
+        margin-bottom: 54px;
+    }
+
+    .footer .media {
+        margin-left: 69px !important;
+        text-align: left;
+    }
+}
+@media (max-width: 576px) {
+
+    .banner-img {
+        position: absolute;
+        top: 91%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .banner-img img {
+        height: 300px;
+        width: auto;
+    }
+    .traffic-content {
+        padding: 85px 41px !important;
+        margin-bottom: 6% !important;
+    }
+
+    .call-content h4 {
+        font-weight: 800;
+        font-size: 33px;
+    }
+    footer{
+        text-align: center;
+    
+        
+    }
+    .footer .media {
+        margin-left: 160px;
+        text-align: left;
+    }
+    .footer-first-cnt{
+        margin-bottom: 50px;
+    }
+
+    .footer-dash {
+       
+        margin: 16px auto !important;
+        
+    }
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    .book-cab-left h2 {
+        color: #101010;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+
+    .cab-inner {
+        padding: 0px;
+    }
+    .cab-inner {
+        padding: 0px;
+        margin-top: 54px;
+    }
+
+    
+
+
+    .traffic-content {
+        padding: 85px 131px;
+        margin-bottom: 6% !important;
+    }
+
+    .footer-dash {
+        width: 195px !important;
+    }
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .footer-dash {
+        display: block;
+        height: 8px;
+        width: 250px;
+        background: #ffc61a;
+        margin: 40px 0px;
+    }
+
+    .book-cab-left h2 {
+        color: #101010;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 41px;
+    }
+
+    .traffic-content {
+        padding: 85px 131px;
+        margin-bottom: 6% !important;
+    }
+    .navbar-nav{
+        background-color: #715A0C !important;
+    }
+    nav .navbar-nav .nav-item{
+        padding: 10px 0px;
+    }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+
+ }
